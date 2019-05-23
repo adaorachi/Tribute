@@ -1,18 +1,50 @@
-#main{
+body {
+  background-color: white;
+}
+
+#main {
   background-color: #eee;
   margin: 20px auto;
+  width: 97%;
+  border-radius: 5px;
 }
-#title{
+
+#title {
   text-align: center;
 }
-#img-div{
-  width:70%;
+
+#img-div {
+  width: 70%;
   margin: auto;
+  background: white;
+  padding: 20px;
 }
-#img-caption p{
+
+#img-div img {
+  display: block;
+}
+
+#img-caption p {
   font-size: 0.8em;
   margin-top: 10px;
 }
-#tribute-info li{
+
+#tribute-info {
+  width: 60%;
+  margin: 20px auto;
+}
+
+#tribute-info h5 {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+#tribute-info li {
   padding-bottom: 20px;
+}
+
+.end p {
+  font-size: 1.2em;
+  width: 70%;
+  margin: 20px auto;
 }
